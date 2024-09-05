@@ -1,0 +1,2494 @@
+{
+  "armor_sets": [
+    {
+      "name": "Jagras Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Firm Foothold",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Firm Foothold",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Jagras Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Rising Tide",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Rising Tide",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Jagras Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Firm Foothold",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Water Attack",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Jagras Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Fortify",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Rising Tide",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Jagras Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Water Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Water Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Kulu Headpiece",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Lock On",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Kulu Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Guts",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Guts",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Kulu Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Last Stand",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Kulu Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Last Stand",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Kulu Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Critical Eye",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Pukei Hood",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Health Boost",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Health Boost",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Pukei Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Pukei Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Poison Resistance",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Pukei Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Poison Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Pukei Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Health Boost",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Poison Resistance",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Barroth Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Offensive Guard",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Barroth Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Offensive Guard",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Barroth Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Guard",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Barroth Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Guard",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Barroth Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Recoil Down",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Defense Boost",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Defense Boost",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Girros Mask",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Paralysis Resistance",
+          "level": 2,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Girros Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Sneak Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Girros Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Sneak Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Earplugs",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Girros Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Earplugs",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Earplugs",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Girros Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Paralysis Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Kadachi Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Reload Speed",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Artful Dodger",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Kadachi Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Thunder Attack",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Kadachi Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Evade Extender",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Artful Dodger",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Kadachi Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Thunder Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Kadachi Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Artful Dodger",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Thunder Resistance",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Lumu Hat",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Concentration",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Windproof",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Lumu Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Recoil Down",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Recoil Down",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Lumu Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Concentration",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Concentration",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Lumu Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Lumu Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Windproof",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Jyura Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Last Stand",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Jyura Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Water Attack",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Last Stand",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Jyura Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Water Attack",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Water Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Jyura Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Water Resistance",
+          "level": 2,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Jyura Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Focus",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Last Stand",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Anja Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "level": 2,
+          "grade": 4
+        },
+        {
+          "name": "Fire Resistance",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Anja Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Special Boost",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Special Boost",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Anja Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Fire Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Anja Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Special Boost",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Anja Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Peak Performance",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathian Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Health Boost",
+          "level": 2,
+          "grade": 4
+        },
+        {
+          "name": "Poison Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathian Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Poison Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathian Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Lock On",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Burst",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Burst",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathian Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Burst",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathian Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Health Boost",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Health Boost",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Legiana Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Ice Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Legiana Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Windproof",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Legiana Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Reload Speed",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Reload Speed",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Legiana Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Windproof",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Legiana Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Reload Speed",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Ice Resistance",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Heroics",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Heroics",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Partbreaker",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Offensive Guard",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Partbreaker",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathalos Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Fire Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathalos Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Weakness Exploit",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathalos Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathalos Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Fire Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rathalos Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Weakness Exploit",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Nero Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Resentment",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Nero Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Firm Foothold",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Nero Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Nero Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Lock On",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Heroics",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Diablos Nero Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Offensive Guard",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rath Heart Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Special Boost",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Windproof",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rath Heart Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rath Heart Braces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rath Heart Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Critical Eye",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rath Heart Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Special Boost",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Zinogre Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Evasive Concentration",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Burst",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Zinogre Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Evasive Concentration",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Evasive Concentration",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Thunder Resistance",
+          "level": 1,
+          "grade": 5
+        }
+      ]
+    },
+    {
+      "name": "Zinogre Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Thunder Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Zinogre Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Artful Dodger",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Reload Speed",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Zinogre Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Burst",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Thunder Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Barioth Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Skyward Striker",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Skyward Striker",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Barioth Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Ice Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Barioth Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Ice Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Barioth Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Skyward Striker",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Ice Resistance",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Barioth Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Sneak Attack",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Banbaro Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Recoil Down",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Banbaro Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Concentration",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Partbreaker",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Banbaro Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Offensive Guard",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Offensive Guard",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Tremor Resistance",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Banbaro Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Attack Boost",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Firm Foothold",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Banbaro Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 1,
+          "grade": 3
+        },
+        {
+          "name": "Concentration",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Baan Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Guard",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Baan Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Defense Boost",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Defense Boost",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Baan Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Sleep Resistance",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Baan Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Sleep Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Baan Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Guard",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Rath Soul Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Focus",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rath Soul Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Earplugs",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Fire Attack",
+          "level": 1,
+          "grade": 5
+        }
+      ]
+    },
+    {
+      "name": "Rath Soul Braces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Critical Boost",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Critical Boost",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rath Soul Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Special Boost",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Critical Boost",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Rath Soul Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Reload Speed",
+          "level": 2,
+          "grade": 5
+        },
+        {
+          "name": "Fire Attack",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Tzitzi Headgear",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Thunder Attack",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Tzitzi Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Status Sneak Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Artful Dodger",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Tzitzi Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Status Sneak Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Status Sneak Attack",
+          "level": 2,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Tzitzi Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Status Sneak Attack",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Tzitzi Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Fortify",
+          "level": 2,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Odogaron Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Quick Work",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Quick Work",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Odogaron Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Critical Eye",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Bleeding Resistance",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Odogaron Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Quick Work",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Bleeding Resistance",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Bleeding Resistance",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Odogaron Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Evasive Concentration",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Odogaron Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Evasive Concentration",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Evasive Concentration",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Vangis Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Slugger",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 1,
+          "grade": 5
+        }
+      ]
+    },
+    {
+      "name": "Vangis Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Latent Power",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Vangis Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Peak Performance",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 1,
+          "grade": 5
+        }
+      ]
+    },
+    {
+      "name": "Vangis Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Tremor Resistance",
+          "level": 1,
+          "grade": 5
+        }
+      ]
+    },
+    {
+      "name": "Vangis Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Guts",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Guts",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Latent Power",
+          "level": 1,
+          "grade": 5
+        }
+      ]
+    },
+    {
+      "name": "Pukei Lagoon Hat",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Weakness Exploit",
+          "level": 2,
+          "grade": 8
+        },
+        {
+          "name": "Lock On",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Pukei Lagoon Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Power Prolonger",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Rising Tide",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Pukei Lagoon Braces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Rising Tide",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Skyward Striker",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Pukei Lagoon Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Reload Speed",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Recoil Down",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Pukei Lagoon Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Weakness Exploit",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Kushala Glare",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Kushala Frostwind",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Reload Speed",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Earplugs",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Kushala Cista",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Kushala Frostwind",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Partbreaker",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Health Boost",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Kushala Grip",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Kushala Frostwind",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Kushala Cocoon",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Kushala Frostwind",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Weakness Exploit",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Windproof",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Kushala Crus",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Kushala Frostwind",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Skyward Striker",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Artful Dodger",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Basarios Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Sleep Resistance",
+          "level": 2,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Basarios Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Artillery",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Artillery",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Basarios Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Recoil Down",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Recoil Down",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Basarios Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Fire Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Basarios Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Artillery",
+          "level": 1,
+          "grade": 2
+        },
+        {
+          "name": "Guard",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Khezu Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Special Insurance",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Khezu Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Thunder Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Khezu Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Special Insurance",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Special Insurance",
+          "level": 2,
+          "grade": 6
+        },
+        {
+          "name": "Fortify",
+          "level": 1,
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "name": "Khezu Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Paralysis Resistance",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Khezu Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1,
+          "grade": 4
+        },
+        {
+          "name": "Slugger",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Mizutsune Helm",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Water Attack",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Water Attack",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Mizutsune Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Bubbly Dance",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Bubbly Dance",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Mizutsune Braces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Bubbly Dance",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Resuscitate",
+          "level": 1,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Mizutsune Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Evasive Concentration",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Evasive Concentration",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Mizutsune Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1,
+          "grade": 5
+        },
+        {
+          "name": "Resuscitate",
+          "level": 2,
+          "grade": 6
+        }
+      ]
+    },
+    {
+      "name": "Kaiser Crown",
+      "type": "Head",
+      "skills": [
+        {
+          "name": "Teostra Blastpowder",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Latent Power",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Guts",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Kaiser Mail",
+      "type": "Chest",
+      "skills": [
+        {
+          "name": "Teostra Blastpowder",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Artful Dodger",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Kaiser Vambraces",
+      "type": "Arms",
+      "skills": [
+        {
+          "name": "Teostra Blastpowder",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Artillery",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Guard",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Kaiser Coil",
+      "type": "Waist",
+      "skills": [
+        {
+          "name": "Teostra Blastpowder",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Power Prolonger",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Burst",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    },
+    {
+      "name": "Kaiser Greaves",
+      "type": "Legs",
+      "skills": [
+        {
+          "name": "Teostra Blastpowder",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Critical Boost",
+          "level": 1,
+          "grade": 6
+        },
+        {
+          "name": "Evade Extender",
+          "level": 1,
+          "grade": 8
+        }
+      ]
+    }
+  ]
+}

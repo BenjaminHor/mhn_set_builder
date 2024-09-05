@@ -1,0 +1,1012 @@
+1. Jagras Helm
+   Skills:
+   - Firm Foothold
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+2. Jagras Mail
+   Skills:
+   - Rising Tide
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+3. Jagras Vambraces
+   Skills:
+   - Firm Foothold
+     ・Grade 2: Level 1
+   - Water Attack
+     ・Grade 4: Level 1
+
+4. Jagras Coil
+   Skills:
+   - Fortify
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+   - Rising Tide
+     ・Grade 4: Level 1
+
+5. Jagras Greaves
+   Skills:
+   - Water Attack
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+1. Kulu Headpiece (Head)
+   Skills:
+   - Lock On
+     ・Grade 2: Level 1
+   - Critical Eye
+     ・Grade 4: Level 1
+
+2. Kulu Mail (Chest)
+   Skills:
+   - Guts
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+3. Kulu Vambraces (Arms)
+   Skills:
+   - Last Stand
+     ・Grade 2: Level 1
+   - Critical Eye
+     ・Grade 4: Level 1
+
+4. Kulu Coil (Waist)
+   Skills:
+   - Last Stand
+     ・Grade 2: Level 1
+   - Evade Extender
+     ・Grade 4: Level 1
+
+5. Kulu Greaves (Legs)
+   Skills:
+   - Critical Eye
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+1. Pukei Hood (Head)
+   Skills:
+   - Focus
+     ・Grade 2: Level 1
+   - Health Boost
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+2. Pukei Mail (Chest)
+   Skills:
+   - Poison Resistance
+     ・Grade 2: Level 1
+   - Focus
+     ・Grade 4: Level 1
+
+3. Pukei Vambraces (Arms)
+   Skills:
+   - Poison Attack
+     ・Grade 2: Level 1
+   - Poison Resistance
+     ・Grade 4: Level 1
+
+4. Pukei Coil (Waist)
+   Skills:
+   - Poison Attack
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+5. Pukei Greaves (Legs)
+   Skills:
+   - Health Boost
+     ・Grade 2: Level 1
+   - Poison Resistance
+     ・Grade 4: Level 1
+
+1. Barroth Helm (Head)
+   Skills:
+   - Defense Boost
+     ・Grade 2: Level 1
+   - Offensive Guard
+     ・Grade 4: Level 1
+
+2. Barroth Mail (Chest)
+   Skills:
+   - Offensive Guard
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+3. Barroth Vambraces (Arms)
+   Skills:
+   - Guard
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+4. Barroth Coil (Waist)
+   Skills:
+   - Defense Boost
+     ・Grade 2: Level 1
+   - Guard
+     ・Grade 4: Level 1
+
+5. Barroth Greaves (Legs)
+   Skills:
+   - Recoil Down
+     ・Grade 2: Level 1
+   - Defense Boost
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+1. Girros Mask (Head)
+   Skills:
+   - Paralysis Resistance
+     ・Grade 2: Level 1
+     ・Grade 4: Level 2
+
+2. Girros Mail (Chest)
+   Skills:
+   - Paralysis Resistance
+     ・Grade 2: Level 1
+   - Sneak Attack
+     ・Grade 6: Level 1
+
+3. Girros Vambraces (Arms)
+   Skills:
+   - Sneak Attack
+     ・Grade 2: Level 1
+   - Earplugs
+     ・Grade 6: Level 1
+
+4. Girros Coil (Waist)
+   Skills:
+   - Paralysis Attack
+     ・Grade 2: Level 1
+   - Earplugs
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+5. Girros Greaves (Legs)
+   Skills:
+   - Paralysis Attack
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+1. Kadachi Helm (Head)
+   Skills:
+   - Reload Speed
+     ・Grade 2: Level 1
+   - Artful Dodger
+     ・Grade 6: Level 1
+
+2. Kadachi Mail (Chest)
+   Skills:
+   - Evade Extender
+     ・Grade 2: Level 1
+   - Thunder Attack
+     ・Grade 4: Level 1
+
+3. Kadachi Vambraces (Arms)
+   Skills:
+   - Evade Extender
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+   - Artful Dodger
+     ・Grade 4: Level 1
+
+4. Kadachi Coil (Waist)
+   Skills:
+   - Thunder Attack
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+5. Kadachi Greaves (Legs)
+   Skills:
+   - Artful Dodger
+     ・Grade 2: Level 1
+   - Thunder Resistance
+     ・Grade 4: Level 1
+
+1. Lumu Hat (Head)
+   Skills:
+   - Concentration
+     ・Grade 3: Level 1
+   - Windproof
+     ・Grade 4: Level 1
+
+2. Lumu Mail (Chest)
+   Skills:
+   - Recoil Down
+     ・Grade 3: Level 1
+     ・Grade 6: Level 2
+
+3. Lumu Vambraces (Arms)
+   Skills:
+   - Concentration
+     ・Grade 3: Level 1
+     ・Grade 6: Level 2
+   - Divine Blessing
+     ・Grade 4: Level 1
+
+4. Lumu Coil (Waist)
+   Skills:
+   - Divine Blessing
+     ・Grade 3: Level 1
+     ・Grade 6: Level 2
+
+5. Lumu Greaves (Legs)
+   Skills:
+   - Windproof
+     ・Grade 3: Level 1
+     ・Grade 6: Level 2
+
+1. Jyura Helm (Head)
+   Skills:
+   - Water Resistance
+     ・Grade 3: Level 1
+   - Last Stand
+     ・Grade 4: Level 1
+
+2. Jyura Mail (Chest)
+   Skills:
+   - Water Attack
+     ・Grade 3: Level 1
+   - Last Stand
+     ・Grade 4: Level 1
+
+3. Jyura Vambraces (Arms)
+   Skills:
+   - Water Attack
+     ・Grade 3: Level 1
+     ・Grade 6: Level 2
+
+4. Jyura Coil (Waist)
+   Skills:
+   - Water Resistance
+     ・Grade 3: Level 1
+     ・Grade 4: Level 2
+
+5. Jyura Greaves (Legs)
+   Skills:
+   - Focus
+     ・Grade 3: Level 1
+     ・Grade 6: Level 2
+   - Last Stand
+     ・Grade 4: Level 1
+
+1. Anja Helm (Head)
+   Skills:
+   - Fire Attack
+     ・Grade 4: Level 2
+   - Fire Resistance
+     ・Grade 6: Level 1
+
+2. Anja Mail (Chest)
+   Skills:
+   - Special Boost
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+3. Anja Vambraces (Arms)
+   Skills:
+   - Fire Attack
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+4. Anja Coil (Waist)
+   Skills:
+   - Fire Resistance
+     ・Grade 4: Level 1
+   - Special Boost
+     ・Grade 6: Level 1
+
+5. Anja Greaves (Legs)
+   Skills:
+   - Peak Performance
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+1. Rathian Helm (Head)
+   Skills:
+   - Health Boost
+     ・Grade 4: Level 2
+   - Poison Attack
+     ・Grade 6: Level 1
+
+2. Rathian Mail (Chest)
+   Skills:
+   - Poison Attack
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+3. Rathian Vambraces (Arms)
+   Skills:
+   - Lock On
+     ・Grade 4: Level 1
+   - Burst
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+4. Rathian Coil (Waist)
+   Skills:
+   - Poison Resistance
+     ・Grade 4: Level 1
+   - Burst
+     ・Grade 6: Level 1
+
+5. Rathian Greaves (Legs)
+   Skills:
+   - Health Boost
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+1. Legiana Helm (Head)
+   Skills:
+   - Divine Blessing
+     ・Grade 5: Level 1
+   - Ice Attack
+     ・Grade 6: Level 1
+
+2. Legiana Mail (Chest)
+   Skills:
+   - Divine Blessing
+     ・Grade 5: Level 2
+   - Windproof
+     ・Grade 6: Level 1
+
+3. Legiana Vambraces (Arms)
+   Skills:
+   - Reload Speed
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+4. Legiana Coil (Waist)
+   Skills:
+   - Ice Attack
+     ・Grade 5: Level 2
+   - Windproof
+     ・Grade 6: Level 1
+
+5. Legiana Greaves (Legs)
+   Skills:
+   - Reload Speed
+     ・Grade 5: Level 1
+   - Ice Resistance
+     ・Grade 6: Level 1
+
+1. Diablos Helm (Head)
+   Skills:
+   - Heroics
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+2. Diablos Mail (Chest)
+   Skills:
+   - Slugger
+     ・Grade 5: Level 1
+   - Heroics
+     ・Grade 6: Level 1
+
+3. Diablos Vambraces (Arms)
+   Skills:
+   - Heroics
+     ・Grade 5: Level 2
+   - Partbreaker
+     ・Grade 6: Level 1
+
+4. Diablos Coil (Waist)
+   Skills:
+   - Partbreaker
+     ・Grade 5: Level 1
+   - Offensive Guard
+     ・Grade 6: Level 1
+
+5. Diablos Greaves (Legs)
+   Skills:
+   - Slugger
+     ・Grade 5: Level 2
+   - Partbreaker
+     ・Grade 6: Level 1
+
+1. Rathalos Helm (Head)
+   Skills:
+   - Attack Boost
+     ・Grade 5: Level 2
+   - Fire Attack
+     ・Grade 6: Level 1
+
+2. Rathalos Mail (Chest)
+   Skills:
+   - Weakness Exploit
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+3. Rathalos Vambraces (Arms)
+   Skills:
+   - Fire Resistance
+     ・Grade 5: Level 1
+   - Attack Boost
+     ・Grade 6: Level 1
+
+4. Rathalos Coil (Waist)
+   Skills:
+   - Focus
+     ・Grade 5: Level 1
+   - Fire Attack
+     ・Grade 6: Level 1
+
+5. Rathalos Greaves (Legs)
+   Skills:
+   - Fire Resistance
+     ・Grade 5: Level 1
+   - Weakness Exploit
+     ・Grade 6: Level 1
+
+1. Diablos Nero Helm (Head)
+   Skills:
+   - Partbreaker
+     ・Grade 5: Level 2
+   - Resentment
+     ・Grade 6: Level 1
+
+2. Diablos Nero Mail (Chest)
+   Skills:
+   - Resentment
+     ・Grade 5: Level 2
+   - Firm Foothold
+     ・Grade 6: Level 1
+
+3. Diablos Nero Vambraces (Arms)
+   Skills:
+   - Resentment
+     ・Grade 5: Level 1
+   - Focus
+     ・Grade 6: Level 1
+
+4. Diablos Nero Coil (Waist)
+   Skills:
+   - Lock On
+     ・Grade 5: Level 1
+   - Heroics
+     ・Grade 6: Level 1
+
+5. Diablos Nero Greaves (Legs)
+   Skills:
+   - Heroics
+     ・Grade 5: Level 1
+   - Offensive Guard
+     ・Grade 6: Level 1
+
+1. Rath Heart Helm (Head)
+   Skills:
+   - Special Boost
+     ・Grade 5: Level 1
+   - Windproof
+     ・Grade 6: Level 1
+
+2. Rath Heart Mail (Chest)
+   Skills:
+   - Dragon Attack
+     ・Grade 5: Level 1
+   - Focus
+     ・Grade 6: Level 1
+
+3. Rath Heart Braces (Arms)
+   Skills:
+   - Windproof
+     ・Grade 5: Level 2
+   - Critical Eye
+     ・Grade 6: Level 1
+
+4. Rath Heart Coil (Waist)
+   Skills:
+   - Critical Eye
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+5. Rath Heart Greaves (Legs)
+   Skills:
+   - Special Boost
+     ・Grade 5: Level 2
+   - Dragon Attack
+     ・Grade 6: Level 1
+
+1. Zinogre Helm (Head)
+   Skills:
+   - Evasive Concentration
+     ・Grade 5: Level 1
+   - Burst
+     ・Grade 6: Level 1
+
+2. Zinogre Mail (Chest)
+   Skills:
+   - Evasive Concentration
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+   - Thunder Resistance
+     ・Grade 5: Level 1
+
+3. Zinogre Vambraces (Arms)
+   Skills:
+   - Thunder Attack
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+4. Zinogre Coil (Waist)
+   Skills:
+   - Artful Dodger
+     ・Grade 5: Level 1
+   - Reload Speed
+     ・Grade 6: Level 1
+
+5. Zinogre Greaves (Legs)
+   Skills:
+   - Burst
+     ・Grade 5: Level 1
+   - Thunder Attack
+     ・Grade 6: Level 1
+
+1. Barioth Helm (Head)
+   Skills:
+   - Evade Extender
+     ・Grade 4: Level 1
+   - Skyward Striker
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+2. Barioth Mail (Chest)
+   Skills:
+   - Ice Resistance
+     ・Grade 4: Level 1
+   - Ice Attack
+     ・Grade 6: Level 1
+
+3. Barioth Vambraces (Arms)
+   Skills:
+   - Ice Attack
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+4. Barioth Coil (Waist)
+   Skills:
+   - Skyward Striker
+     ・Grade 4: Level 1
+   - Ice Resistance
+     ・Grade 6: Level 1
+
+5. Barioth Greaves (Legs)
+   Skills:
+   - Sneak Attack
+     ・Grade 4: Level 1
+   - Evade Extender
+     ・Grade 6: Level 1
+
+1. Banbaro Helm (Head)
+   Skills:
+   - Tremor Resistance
+     ・Grade 3: Level 1
+   - Recoil Down
+     ・Grade 4: Level 1
+
+2. Banbaro Mail (Chest)
+   Skills:
+   - Concentration
+     ・Grade 3: Level 1
+   - Partbreaker
+     ・Grade 6: Level 1
+
+3. Banbaro Vambraces (Arms)
+   Skills:
+   - Offensive Guard
+     ・Grade 3: Level 1
+     ・Grade 6: Level 2
+   - Tremor Resistance
+     ・Grade 4: Level 1
+
+4. Banbaro Coil (Waist)
+   Skills:
+   - Attack Boost
+     ・Grade 3: Level 1
+     ・Grade 6: Level 2
+   - Firm Foothold
+     ・Grade 4: Level 1
+
+5. Banbaro Greaves (Legs)
+   Skills:
+   - Divine Blessing
+     ・Grade 3: Level 1
+   - Concentration
+     ・Grade 6: Level 1
+
+1. Baan Helm (Head)
+   Skills:
+   - Guard
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+2. Baan Mail (Chest)
+   Skills:
+   - Sleep Attack
+     ・Grade 2: Level 1
+   - Defense Boost
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+3. Baan Vambraces (Arms)
+   Skills:
+   - Slugger
+     ・Grade 2: Level 1
+   - Sleep Resistance
+     ・Grade 4: Level 1
+
+4. Baan Coil (Waist)
+   Skills:
+   - Sleep Attack
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+5. Baan Greaves (Legs)
+   Skills:
+   - Sleep Resistance
+     ・Grade 2: Level 1
+   - Guard
+     ・Grade 4: Level 1
+
+1. Rath Soul Helm (Head)
+   Skills:
+   - Focus
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+2. Rath Soul Mail (Chest)
+   Skills:
+   - Earplugs
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+   - Fire Attack
+     ・Grade 5: Level 1
+
+3. Rath Soul Braces (Arms)
+   Skills:
+   - Critical Boost
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+4. Rath Soul Coil (Waist)
+   Skills:
+   - Special Boost
+     ・Grade 5: Level 1
+   - Critical Boost
+     ・Grade 6: Level 1
+
+5. Rath Soul Greaves (Legs)
+   Skills:
+   - Reload Speed
+     ・Grade 5: Level 2
+   - Fire Attack
+     ・Grade 6: Level 1
+
+1. Tzitzi Headgear (Head)
+   Skills:
+   - Thunder Attack
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+   - Evade Extender
+     ・Grade 4: Level 1
+
+2. Tzitzi Mail (Chest)
+   Skills:
+   - Status Sneak Attack
+     ・Grade 2: Level 1
+   - Artful Dodger
+     ・Grade 4: Level 1
+
+3. Tzitzi Vambraces (Arms)
+   Skills:
+   - Status Sneak Attack
+     ・Grade 2: Level 1
+     ・Grade 4: Level 2
+
+4. Tzitzi Coil (Waist)
+   Skills:
+   - Evade Extender
+     ・Grade 2: Level 1
+   - Status Sneak Attack
+     ・Grade 4: Level 1
+
+5. Tzitzi Greaves (Legs)
+   Skills:
+   - Fortify
+     ・Grade 2: Level 1
+     ・Grade 4: Level 2
+
+1. Odogaron Helm (Head)
+   Skills:
+   - Quick Work
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+2. Odogaron Mail (Chest)
+   Skills:
+   - Critical Eye
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+   - Bleeding Resistance
+     ・Grade 4: Level 1
+
+3. Odogaron Vambraces (Arms)
+   Skills:
+   - Quick Work
+     ・Grade 4: Level 1
+   - Bleeding Resistance
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+4. Odogaron Coil (Waist)
+   Skills:
+   - Critical Eye
+     ・Grade 4: Level 1
+   - Evasive Concentration
+     ・Grade 6: Level 1
+
+5. Odogaron Greaves (Legs)
+   Skills:
+   - Evasive Concentration
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+1. Vangis Helm (Head)
+   Skills:
+   - Slugger
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+   - Dragon Attack
+     ・Grade 5: Level 1
+
+2. Vangis Mail (Chest)
+   Skills:
+   - Latent Power
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+3. Vangis Vambraces (Arms)
+   Skills:
+   - Peak Performance
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+   - Dragon Attack
+     ・Grade 5: Level 1
+
+4. Vangis Coil (Waist)
+   Skills:
+   - Dragon Attack
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+   - Tremor Resistance
+     ・Grade 5: Level 1
+
+5. Vangis Greaves (Legs)
+   Skills:
+   - Guts
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+   - Latent Power
+     ・Grade 5: Level 1
+
+1. Pukei Lagoon Hat (Head)
+   Skills:
+   - Weakness Exploit
+     ・Grade 5: Level 1
+     ・Grade 8: Level 2
+   - Lock On
+     ・Grade 6: Level 1
+
+2. Pukei Lagoon Mail (Chest)
+   Skills:
+   - Power Prolonger
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+   - Rising Tide
+     ・Grade 8: Level 1
+
+3. Pukei Lagoon Braces (Arms)
+   Skills:
+   - Rising Tide
+     ・Grade 5: Level 1
+   - Skyward Striker
+     ・Grade 6: Level 1
+
+4. Pukei Lagoon Coil (Waist)
+   Skills:
+   - Reload Speed
+     ・Grade 5: Level 1
+   - Recoil Down
+     ・Grade 6: Level 1
+
+5. Pukei Lagoon Greaves (Legs)
+   Skills:
+   - Power Prolonger
+     ・Grade 5: Level 1
+   - Weakness Exploit
+     ・Grade 6: Level 1
+
+1. Kushala Glare (Head)
+   Skills:
+   - Kushala Frostwind
+     ・Grade 6: Level 1
+   - Reload Speed
+     ・Grade 6: Level 1
+   - Earplugs
+     ・Grade 8: Level 1
+
+2. Kushala Cista (Chest)
+   Skills:
+   - Kushala Frostwind
+     ・Grade 6: Level 1
+   - Partbreaker
+     ・Grade 6: Level 1
+   - Health Boost
+     ・Grade 8: Level 1
+
+3. Kushala Grip (Arms)
+   Skills:
+   - Kushala Frostwind
+     ・Grade 6: Level 1
+   - Focus
+     ・Grade 6: Level 1
+   - Evade Extender
+     ・Grade 8: Level 1
+
+4. Kushala Cocoon (Waist)
+   Skills:
+   - Kushala Frostwind
+     ・Grade 6: Level 1
+   - Weakness Exploit
+     ・Grade 6: Level 1
+   - Windproof
+     ・Grade 8: Level 1
+
+5. Kushala Crus (Legs)
+   Skills:
+   - Kushala Frostwind
+     ・Grade 6: Level 1
+   - Skyward Striker
+     ・Grade 6: Level 1
+   - Artful Dodger
+     ・Grade 8: Level 1
+
+1. Basarios Helm (Head)
+   Skills:
+   - Sleep Resistance
+     ・Grade 2: Level 1
+     ・Grade 4: Level 2
+
+2. Basarios Mail (Chest)
+   Skills:
+   - Artillery
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+3. Basarios Vambraces (Arms)
+   Skills:
+   - Recoil Down
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+4. Basarios Coil (Waist)
+   Skills:
+   - Fire Attack
+     ・Grade 2: Level 1
+     ・Grade 6: Level 2
+
+5. Basarios Greaves (Legs)
+   Skills:
+   - Artillery
+     ・Grade 2: Level 1
+   - Guard
+     ・Grade 4: Level 1
+
+1. Khezu Helm (Head)
+   Skills:
+   - Paralysis Attack
+     ・Grade 4: Level 1
+   - Special Insurance
+     ・Grade 6: Level 1
+
+2. Khezu Mail (Chest)
+   Skills:
+   - Thunder Attack
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+3. Khezu Vambraces (Arms)
+   Skills:
+   - Special Insurance
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+   - Fortify
+     ・Grade 4: Level 1
+
+4. Khezu Coil (Waist)
+   Skills:
+   - Paralysis Resistance
+     ・Grade 4: Level 1
+     ・Grade 6: Level 2
+
+5. Khezu Greaves (Legs)
+   Skills:
+   - Focus
+     ・Grade 4: Level 1
+   - Slugger
+     ・Grade 6: Level 1
+
+1. Mizutsune Helm (Head)
+   Skills:
+   - Water Attack
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+2. Mizutsune Mail (Chest)
+   Skills:
+   - Bubbly Dance
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+3. Mizutsune Braces (Arms)
+   Skills:
+   - Bubbly Dance
+     ・Grade 5: Level 1
+   - Resuscitate
+     ・Grade 6: Level 1
+
+4. Mizutsune Coil (Waist)
+   Skills:
+   - Evasive Concentration
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+5. Mizutsune Greaves (Legs)
+   Skills:
+   - Resuscitate
+     ・Grade 5: Level 1
+     ・Grade 6: Level 2
+
+1. Kaiser Crown (Head)
+   Skills:
+   - Teostra Blastpowder
+     ・Grade 6: Level 1
+   - Latent Power
+     ・Grade 6: Level 1
+   - Guts
+     ・Grade 8: Level 1
+
+2. Kaiser Mail (Chest)
+   Skills:
+   - Teostra Blastpowder
+     ・Grade 6: Level 1
+   - Critical Eye
+     ・Grade 6: Level 1
+   - Artful Dodger
+     ・Grade 8: Level 1
+
+3. Kaiser Vambraces (Arms)
+   Skills:
+   - Teostra Blastpowder
+     ・Grade 6: Level 1
+   - Artillery
+     ・Grade 6: Level 1
+   - Guard
+     ・Grade 8: Level 1
+
+4. Kaiser Coil (Waist)
+   Skills:
+   - Teostra Blastpowder
+     ・Grade 6: Level 1
+   - Power Prolonger
+     ・Grade 6: Level 1
+   - Burst
+     ・Grade 8: Level 1
+
+5. Kaiser Greaves (Legs)
+   Skills:
+   - Teostra Blastpowder
+     ・Grade 6: Level 1
+   - Critical Boost
+     ・Grade 6: Level 1
+   - Evade Extender
+     ・Grade 8: Level 1
