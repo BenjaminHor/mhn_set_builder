@@ -86,17 +86,35 @@ func readArmorCollection() {
 	}
 }
 
+func search() {
+
+	/*
+		Check if the current set contains all the skills requested
+		If it does contain all the skills, add it to the list of valid sets and return
+		If it does not contain all the skills, return
+
+		Make a valid choice based on which armor type we're currently looking for
+		Recursively search with the current set
+		Undo the previous choice
+
+		Once we're exhausted all options, return and complete the search
+	*/
+
+	var currSet = ArmorSet{}
+	var armorPieces = []*ArmorPiece{
+		&currSet.Head, &currSet.Chest, &currSet.Arms, &currSet.Waist, &currSet.Legs,
+	}
+	*armorPieces[0] = ArmorPiece{}
+}
+
 func findArmorSets(skills []Skill) []ArmorSet {
 	var validSets = []ArmorSet{}
 
-	var backtrack = func() {
-		var currSet = ArmorSet{}
-		var armorPieces = []*ArmorPiece{
-			&currSet.Head, &currSet.Chest, &currSet.Arms, &currSet.Waist, &currSet.Legs,
-		}
-		*armorPieces[0] = ArmorPiece{}
-	}
-	backtrack()
+	search()
 
 	return validSets
+}
+
+func isValidSet(armorSet ArmorSet, skills []Skill) bool {
+	return true
 }
