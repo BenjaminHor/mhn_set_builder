@@ -3,16 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"maps"
 	"os"
-	"slices"
+	"time"
 )
 
 type SkillName string
-
-const (
-	Focus       SkillName = "Focus"
-	AttackBoost SkillName = "Attack Boost"
-)
 
 type ArmorType string
 
@@ -35,7 +31,7 @@ type ArmorPiece struct {
 }
 
 type GradedArmorPiece struct {
-	OriginalPiece ArmorPiece
+	ArmorPiece
 	Grade         int
 	EnabledSkills []Skill
 }
@@ -66,25 +62,28 @@ var armorSetList [][]ArmorPiece
 
 func main() {
 	readArmorCollection()
+	var start = time.Now()
+
 	var foundSets = findArmorSets([]Skill{
-		{Name: "Attack Boost", Level: 6},
-		// {Name: "Focus", Level: 1},
-		// {Name: "Offensive Guard", Level: 1},
+		{Name: "Offensive Guard", Level: 5},
+		{Name: "Guard", Level: 3},
+		// {Name: "Focus", Level: 4},
 		// {Name: "Burst", Level: 1},
-		// {Name: "Quick Work", Level: 1},
+		// {Name: "Attack Boost", Level: 1},
 	})
 
-	fmt.Println(len(foundSets))
-	for _, set := range foundSets {
-		for _, piece := range []GradedArmorPiece{set.Head, set.Chest, set.Arms, set.Waist, set.Legs} {
-			fmt.Println(piece.OriginalPiece.Name, piece.Grade, piece.EnabledSkills)
-		}
-		fmt.Println("===================================================")
-	}
+	var elapsed = time.Since(start)
+	printSets(foundSets)
+	fmt.Println("Found", len(foundSets), elapsed)
 }
 
-func modify(numbers []int) {
-	numbers = append(numbers, 1)
+func printSets(sets []GradedArmorSet) {
+	for _, set := range sets {
+		for _, piece := range []GradedArmorPiece{set.Head, set.Chest, set.Arms, set.Waist, set.Legs} {
+			fmt.Println(piece.Name, piece.Grade, piece.EnabledSkills)
+		}
+		fmt.Println()
+	}
 }
 
 func readArmorCollection() {
@@ -123,16 +122,18 @@ func readArmorCollection() {
 	}
 }
 
-func search(skillReqs []Skill, validSets *[]GradedArmorSet, currPieces []*GradedArmorPiece, currPieceIdx int, armorTypeIdx int) {
-	// If we're searching at the 5th index, we're done for now and can check if currPieces is valid to append
-	if currPieceIdx == 5 {
-		// Check if currPieces satifies the skill requirements
-		var set = GradedArmorSet{
-			Head: *currPieces[0], Chest: *currPieces[1], Arms: *currPieces[2], Waist: *currPieces[3], Legs: *currPieces[4],
-		}
-		if isValidSet(set, skillReqs) {
-			*validSets = append(*validSets, set)
-		}
+func search(skillReqs []Skill, validSets *[]GradedArmorSet, currPieces []*GradedArmorPiece, currPieceIdx int) {
+	// Check if currPieces satisfies the skill requirements
+	var currGradedSet = GradedArmorSet{
+		Head: *currPieces[0], Chest: *currPieces[1], Arms: *currPieces[2], Waist: *currPieces[3], Legs: *currPieces[4],
+	}
+	if isValidSet(currGradedSet, skillReqs) {
+		*validSets = append(*validSets, currGradedSet)
+		return
+	}
+
+	// We've reached the end without finding a valid set, return
+	if currPieceIdx >= 5 {
 		return
 	}
 
@@ -142,25 +143,23 @@ func search(skillReqs []Skill, validSets *[]GradedArmorSet, currPieces []*Graded
 		skillReqMap[skill.Name] = true
 	}
 
-	var foundValidPiece = false
-	for _, potentialPiece := range armorSetList[armorTypeIdx] {
+	//var foundValidPiece = false
+	for _, potentialPiece := range armorSetList[currPieceIdx] {
 		for _, gradedArmorPiece := range expandArmorPieceByGrade(potentialPiece) {
 			if isValidPiece(gradedArmorPiece, skillReqMap) {
-				foundValidPiece = true
+				//foundValidPiece = true
 				// Choose potential piece and keep track of the previous piece for later
 				var previousPiece = *currPieces[currPieceIdx]
 				*currPieces[currPieceIdx] = gradedArmorPiece
 				// Recursively search for the next armor type
-				search(skillReqs, validSets, currPieces, currPieceIdx+1, armorTypeIdx+1)
+				search(skillReqs, validSets, currPieces, currPieceIdx+1)
 				// Undo last choice
 				*currPieces[currPieceIdx] = previousPiece
 			}
 		}
 	}
-	// If no valid piece is found, continue with the next armor type
-	if !foundValidPiece {
-		search(skillReqs, validSets, currPieces, currPieceIdx+1, armorTypeIdx+1)
-	}
+	// Continue searching in next armor slot
+	search(skillReqs, validSets, currPieces, currPieceIdx+1)
 }
 
 func findArmorSets(skills []Skill) []GradedArmorSet {
@@ -170,7 +169,7 @@ func findArmorSets(skills []Skill) []GradedArmorSet {
 		&initialSet.Head, &initialSet.Chest, &initialSet.Arms, &initialSet.Waist, &initialSet.Legs,
 	}
 
-	search(skills, &validSets, armorPieces, 0, 0)
+	search(skills, &validSets, armorPieces, 0)
 
 	return validSets
 }
@@ -192,7 +191,7 @@ func isValidSet(armorSet GradedArmorSet, requiredSkills []Skill) bool {
 
 	// Now validate requested skills against target armor set
 	for skillName, reqLevel := range summedSkillReqs {
-		level, exists := summedCurrSkills[skillName]
+		var level, exists = summedCurrSkills[skillName]
 		if !exists {
 			return false
 		}
@@ -219,21 +218,38 @@ func isValidPiece(gradedArmorPiece GradedArmorPiece, skillReqs map[SkillName]boo
 func expandArmorPieceByGrade(armorPiece ArmorPiece) []GradedArmorPiece {
 	var gradedArmorPieces = []GradedArmorPiece{}
 
-	// Determine what gradeSkillMap are needed for skills on this piece
-	var gradeSkillMap = make(map[int]map[SkillName]Skill)
+	// Determine what grades are needed for skills on this piece
+	var gradeSkillMap = make(map[int]bool)
 	for _, piece := range armorPiece.Skills {
-		gradeSkillMap[piece.Grade] = make(map[SkillName]Skill)
+		gradeSkillMap[piece.Grade] = true
 	}
 	// Then determine what skills are enabled for each grade
-	for grade := range gradeSkillMap {
+	for currGrade := range gradeSkillMap {
+		var enabledSkills = make(map[SkillName]Skill)
 		for _, skill := range armorPiece.Skills {
-			gradeSkillMap[grade] = append(gradeSkillMap[grade], skill)
+			if skill.Grade <= currGrade {
+				if _, exists := enabledSkills[skill.Name]; !exists {
+					enabledSkills[skill.Name] = skill
+					continue
+				}
+
+				if skill.Level >= enabledSkills[skill.Name].Level {
+					enabledSkills[skill.Name] = skill
+				}
+			}
 		}
-		gradedArmorPieces = append(gradedArmorPieces, GradedArmorPiece{
-			OriginalPiece: armorPiece,
-			Grade:         grade,
-			EnabledSkills: gradeSkillMap[grade],
-		})
+
+		// Create gradedArmorPiece
+		var enabledSkillsSlice = []Skill{}
+		for skill := range maps.Values(enabledSkills) {
+			enabledSkillsSlice = append(enabledSkillsSlice, skill)
+		}
+		var gradedArmorPiece = GradedArmorPiece{
+			ArmorPiece:    armorPiece,
+			Grade:         currGrade,
+			EnabledSkills: enabledSkillsSlice,
+		}
+		gradedArmorPieces = append(gradedArmorPieces, gradedArmorPiece)
 	}
 
 	return gradedArmorPieces
