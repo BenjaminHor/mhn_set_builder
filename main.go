@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"slices"
 )
 
 type SkillName string
@@ -33,6 +34,12 @@ type ArmorPiece struct {
 	Skills []Skill   `json:"skills"`
 }
 
+type GradedArmorPiece struct {
+	OriginalPiece ArmorPiece
+	Grade         int
+	EnabledSkills []Skill
+}
+
 type Skill struct {
 	Name  SkillName `json:"name"`
 	Level int       `json:"level"`
@@ -45,6 +52,14 @@ type ArmorSet struct {
 	Arms  ArmorPiece
 	Waist ArmorPiece
 	Legs  ArmorPiece
+}
+
+type GradedArmorSet struct {
+	Head  GradedArmorPiece
+	Chest GradedArmorPiece
+	Arms  GradedArmorPiece
+	Waist GradedArmorPiece
+	Legs  GradedArmorPiece
 }
 
 var armorSetList [][]ArmorPiece
@@ -61,10 +76,10 @@ func main() {
 
 	fmt.Println(len(foundSets))
 	for _, set := range foundSets {
-		for _, piece := range []ArmorPiece{set.Head, set.Chest, set.Arms, set.Waist, set.Legs} {
-			fmt.Println(piece)
+		for _, piece := range []GradedArmorPiece{set.Head, set.Chest, set.Arms, set.Waist, set.Legs} {
+			fmt.Println(piece.OriginalPiece.Name, piece.Grade, piece.EnabledSkills)
 		}
-		fmt.Println()
+		fmt.Println("===================================================")
 	}
 }
 
@@ -108,11 +123,11 @@ func readArmorCollection() {
 	}
 }
 
-func search(skillReqs []Skill, validSets *[]ArmorSet, currPieces []*ArmorPiece, currPieceIdx int, armorTypeIdx int) {
+func search(skillReqs []Skill, validSets *[]GradedArmorSet, currPieces []*GradedArmorPiece, currPieceIdx int, armorTypeIdx int) {
 	// If we're searching at the 5th index, we're done for now and can check if currPieces is valid to append
 	if currPieceIdx == 5 {
 		// Check if currPieces satifies the skill requirements
-		var set = ArmorSet{
+		var set = GradedArmorSet{
 			Head: *currPieces[0], Chest: *currPieces[1], Arms: *currPieces[2], Waist: *currPieces[3], Legs: *currPieces[4],
 		}
 		if isValidSet(set, skillReqs) {
@@ -129,15 +144,17 @@ func search(skillReqs []Skill, validSets *[]ArmorSet, currPieces []*ArmorPiece, 
 
 	var foundValidPiece = false
 	for _, potentialPiece := range armorSetList[armorTypeIdx] {
-		if isValidPiece(potentialPiece, skillReqMap) {
-			foundValidPiece = true
-			// Choose potential piece and keep track of the previous piece for later
-			var previousPiece = *currPieces[currPieceIdx]
-			*currPieces[currPieceIdx] = potentialPiece
-			// Recursively search for the next armor type
-			search(skillReqs, validSets, currPieces, currPieceIdx+1, armorTypeIdx+1)
-			// Undo last choice
-			*currPieces[currPieceIdx] = previousPiece
+		for _, gradedArmorPiece := range expandArmorPieceByGrade(potentialPiece) {
+			if isValidPiece(gradedArmorPiece, skillReqMap) {
+				foundValidPiece = true
+				// Choose potential piece and keep track of the previous piece for later
+				var previousPiece = *currPieces[currPieceIdx]
+				*currPieces[currPieceIdx] = gradedArmorPiece
+				// Recursively search for the next armor type
+				search(skillReqs, validSets, currPieces, currPieceIdx+1, armorTypeIdx+1)
+				// Undo last choice
+				*currPieces[currPieceIdx] = previousPiece
+			}
 		}
 	}
 	// If no valid piece is found, continue with the next armor type
@@ -146,10 +163,10 @@ func search(skillReqs []Skill, validSets *[]ArmorSet, currPieces []*ArmorPiece, 
 	}
 }
 
-func findArmorSets(skills []Skill) []ArmorSet {
-	var validSets = []ArmorSet{}
-	var initialSet = ArmorSet{}
-	var armorPieces = []*ArmorPiece{
+func findArmorSets(skills []Skill) []GradedArmorSet {
+	var validSets = []GradedArmorSet{}
+	var initialSet = GradedArmorSet{}
+	var armorPieces = []*GradedArmorPiece{
 		&initialSet.Head, &initialSet.Chest, &initialSet.Arms, &initialSet.Waist, &initialSet.Legs,
 	}
 
@@ -158,7 +175,7 @@ func findArmorSets(skills []Skill) []ArmorSet {
 	return validSets
 }
 
-func isValidSet(armorSet ArmorSet, requiredSkills []Skill) bool {
+func isValidSet(armorSet GradedArmorSet, requiredSkills []Skill) bool {
 	var summedSkillReqs = make(map[SkillName]int)
 	// Summing up the levels of all required skills
 	for _, skill := range requiredSkills {
@@ -167,8 +184,8 @@ func isValidSet(armorSet ArmorSet, requiredSkills []Skill) bool {
 
 	// Do the same for the armorSet
 	var summedCurrSkills = make(map[SkillName]int)
-	for _, piece := range []ArmorPiece{armorSet.Head, armorSet.Chest, armorSet.Arms, armorSet.Waist, armorSet.Legs} {
-		for _, skill := range piece.Skills {
+	for _, piece := range []GradedArmorPiece{armorSet.Head, armorSet.Chest, armorSet.Arms, armorSet.Waist, armorSet.Legs} {
+		for _, skill := range piece.EnabledSkills {
 			summedCurrSkills[skill.Name] += skill.Level
 		}
 	}
@@ -187,14 +204,37 @@ func isValidSet(armorSet ArmorSet, requiredSkills []Skill) bool {
 	return true
 }
 
-func isValidPiece(armorPiece ArmorPiece, skillReqs map[SkillName]bool) bool {
+func isValidPiece(gradedArmorPiece GradedArmorPiece, skillReqs map[SkillName]bool) bool {
 	// An armor piece is valid if it has a skill that exists in skillReqs
 	// This can just be checked by looking for a matching Skill.name
-	for _, skill := range armorPiece.Skills {
+	for _, skill := range gradedArmorPiece.EnabledSkills {
 		if _, exists := skillReqs[skill.Name]; exists {
 			return true
 		}
 	}
 
 	return false
+}
+
+func expandArmorPieceByGrade(armorPiece ArmorPiece) []GradedArmorPiece {
+	var gradedArmorPieces = []GradedArmorPiece{}
+
+	// Determine what gradeSkillMap are needed for skills on this piece
+	var gradeSkillMap = make(map[int]map[SkillName]Skill)
+	for _, piece := range armorPiece.Skills {
+		gradeSkillMap[piece.Grade] = make(map[SkillName]Skill)
+	}
+	// Then determine what skills are enabled for each grade
+	for grade := range gradeSkillMap {
+		for _, skill := range armorPiece.Skills {
+			gradeSkillMap[grade] = append(gradeSkillMap[grade], skill)
+		}
+		gradedArmorPieces = append(gradedArmorPieces, GradedArmorPiece{
+			OriginalPiece: armorPiece,
+			Grade:         grade,
+			EnabledSkills: gradeSkillMap[grade],
+		})
+	}
+
+	return gradedArmorPieces
 }
