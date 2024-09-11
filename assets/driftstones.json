@@ -5,24 +5,24 @@
       "skills": [
         {
           "name": "Fire Attack",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Heroics",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Peak Performance",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Rising Tide",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Windproof",
-          "level": 1,
-        },
+          "level": 1
+        }
       ]
     },
     {
@@ -30,20 +30,20 @@
       "skills": [
         {
           "name": "Water Attack",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Concentration",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Sleep Attack",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Artful Dodger",
-          "level": 1,
-        },
+          "level": 1
+        }
       ]
     },
     {
@@ -51,24 +51,24 @@
       "skills": [
         {
           "name": "Thunder Attack",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Burst",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Paralysis Attack",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Offensive Guard",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Divine Blessing",
-          "level": 1,
-        },
+          "level": 1
+        }
       ]
     },
     {
@@ -76,24 +76,24 @@
       "skills": [
         {
           "name": "Ice Attack",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Critical Eye",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Poison Attack",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Skyward Striker",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Guard",
-          "level": 1,
-        },
+          "level": 1
+        }
       ]
     },
     {
@@ -101,87 +101,87 @@
       "skills": [
         {
           "name": "Weakness Exploit",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Special Boost",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Sneak Attack",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Evade Extender",
-          "level": 1,
+          "level": 1
         },
         {
           "name": "Earplugs",
-          "level": 1,
-        },
+          "level": 1
+        }
       ]
-    },
+    }
   ],
   "general_skills": [
     {
       "name": "Attack Boost",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Defense Boost",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Health Boost",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Fortify",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Guts",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Firm Foothold",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Last Stand",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Fire Resistance",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Water Resistance",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Thunder Resistance",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Ice Resistance",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Poison Resistance",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Paralysis Resistance",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Sleep Resistance",
-      "level": 1,
+      "level": 1
     },
     {
       "name": "Bleeding Resistance",
-      "level": 1,
-    },
+      "level": 1
+    }
   ]
 }
