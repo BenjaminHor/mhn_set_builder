@@ -43,6 +43,10 @@
         {
           "name": "Artful Dodger",
           "level": 1
+        },
+        {
+          "name": "Tremor Resistance",
+          "level": 1
         }
       ]
     },
@@ -152,35 +156,7 @@
       "level": 1
     },
     {
-      "name": "Fire Resistance",
-      "level": 1
-    },
-    {
-      "name": "Water Resistance",
-      "level": 1
-    },
-    {
-      "name": "Thunder Resistance",
-      "level": 1
-    },
-    {
-      "name": "Ice Resistance",
-      "level": 1
-    },
-    {
-      "name": "Poison Resistance",
-      "level": 1
-    },
-    {
-      "name": "Paralysis Resistance",
-      "level": 1
-    },
-    {
-      "name": "Sleep Resistance",
-      "level": 1
-    },
-    {
-      "name": "Bleeding Resistance",
+      "name": "Aggressive Dodger",
       "level": 1
     }
   ]

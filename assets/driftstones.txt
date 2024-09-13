@@ -1,0 +1,27 @@
+Amber
+- Thunder Attack
+- Burst
+- Paralysis Attack
+- Offensive Guard
+- Divine Blessing
+
+Pale
+- Weakness Exploit
+- Special Boost
+- Sneak Attack
+- Evade Extender
+- Earplugs
+
+Crimson
+- Fire Attack
+- Heroics
+- Peak Performance
+- Rising Tide
+- Windproof
+
+Cyan
+- Ice Attack
+- Critical Eye
+- Poison Attack
+- Skyward Striker
+- Guard
